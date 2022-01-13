@@ -1,4 +1,5 @@
 ﻿using ExemploConstrutoresDotNet.models;
 
-Student s1 = new Student("Mariana Santana", 18, 9.5);
-s1.ToIntroduce();
+Date d1 = new Date();
+d1.SetMonth(12);
+d1.ToIntroduceMonth();
