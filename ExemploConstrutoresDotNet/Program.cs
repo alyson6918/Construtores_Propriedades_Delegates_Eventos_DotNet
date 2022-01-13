@@ -1,4 +1,7 @@
 ﻿using ExemploConstrutoresDotNet.models;
 
-Person p1 = new Person("Mariana Santana", 18);
-p1.ToIntroduce();
+Log l = Log.GetInstance();
+l.PropLog = "Teste de instancia";
+
+Log l1 = Log.GetInstance();
+System.Console.WriteLine(l1.PropLog);
