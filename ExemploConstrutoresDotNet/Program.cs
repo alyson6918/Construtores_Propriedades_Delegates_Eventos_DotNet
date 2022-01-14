@@ -1,6 +1,5 @@
 ﻿using ExemploConstrutoresDotNet.models;
 
-Operation op = new Operation(Calculator.sum);
-op+=Calculator.sub;
-op.Invoke(10, 10);
+Mathm m = new Mathm(10, 15);
+m.sum();
 public delegate void Operation(int n1, int n2);
