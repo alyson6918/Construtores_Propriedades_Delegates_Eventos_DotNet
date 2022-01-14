@@ -4,11 +4,6 @@ namespace ExemploConstrutoresDotNet.models
     {
         protected readonly string? name;
         protected readonly int? age;
-        // public Person()
-        // {
-        //     name = string.Empty;
-        //     age = null;
-        // }
         public Person(String name, int age)
         {
             this.name = name;
