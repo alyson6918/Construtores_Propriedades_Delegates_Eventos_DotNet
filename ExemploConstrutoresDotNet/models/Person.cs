@@ -2,8 +2,8 @@ namespace ExemploConstrutoresDotNet.models
 {
     public class Person
     {
-        protected string? name;
-        protected int? age;
+        protected readonly string? name;
+        protected readonly int? age;
         // public Person()
         // {
         //     name = string.Empty;
